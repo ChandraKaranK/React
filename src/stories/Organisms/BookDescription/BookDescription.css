@@ -1,0 +1,15 @@
+.description{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:40px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:40px;
+}

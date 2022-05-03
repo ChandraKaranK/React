@@ -1,0 +1,12 @@
+button{
+    width:330px;
+    padding:15px;
+    background-color: white;
+    text-align:center;
+    overflow: hidden;
+    border: 1px solid grey;
+    border-bottom: none;
+    border-left: none;
+    margin-left: -35px;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,23 @@
+.menutitle{
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.menuitems{
+    display:flex;
+    justify-content:space-around;
+    margin-left:-10%;
+}
+
+.menu{
+    background-color: #F1F6F4;
+    margin-top: 20px;
+    cursor: pointer;
+    width:100%;
+    position:absolute;
+    z-index: 3;
+}
+
+.menuitem:hover{
+    color:blue;
+}

@@ -2,8 +2,17 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+describe("renders App",()=>{
+
+test('renders loading', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const loadElement = screen.getByText(/loading.../i);
+  expect(loadElement).toBeInTheDocument();
 });
+
+// test('renders explore',async () => {
+//   render(<App />);
+//   expect( await screen.findByText(/explore/i)).toBeInTheDocument();
+// });
+
+})

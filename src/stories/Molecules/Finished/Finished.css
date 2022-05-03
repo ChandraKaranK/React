@@ -1,0 +1,10 @@
+.add1{
+    display: inline;
+    position: relative;
+    left:10px;
+}
+
+.finish :hover{
+    background-color: blue;
+    color:white;
+}

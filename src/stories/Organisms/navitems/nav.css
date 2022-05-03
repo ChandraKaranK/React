@@ -1,0 +1,16 @@
+ul{
+    list-style-type:none;
+}
+
+li{
+color: grey;
+font-family: 'Cera Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 44px;
+}
+
+#title{
+    color:black;
+}

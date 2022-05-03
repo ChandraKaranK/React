@@ -1,0 +1,10 @@
+
+.account{
+    flex-grow: 1;
+}
+
+.headercontainer{
+    display:flex;
+    flex-wrap: nowrap;
+    gap:30px;
+}
